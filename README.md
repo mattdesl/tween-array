@@ -37,13 +37,19 @@ console.log(tmp)   // -> [100, 100]
 
 [![NPM](https://nodei.co/npm/tween-array.png)](https://nodei.co/npm/tween-array/)
 
-#### `array(start, end[, opt])`
+#### `tween = array(target, end[, opt])`
 
-Creates a new array tween that `ticker.push()` will accept. This will tween the `start` target array to `end`. Options are the same as `ticker.to()`, additionally:
+Creates a new array tween that can be ticked by tween-ticker or your engine of choice. This will tween the `target` array to `end`. Options are the same as `ticker.to()`, additionally:
 
-- `output` can be an array to redirect the output to, instead of modifying `start`
+- `start` can be an array to use as the start values
 
 If `opt` is a number, it is assumed to be a duration.
+
+```js
+//equivalent
+array(start, end, { duration: 1 })
+array(start, end, 1)
+```
 
 ## License
 

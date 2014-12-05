@@ -1,7 +1,7 @@
 {
   "name": "tween-array",
   "version": "1.0.0",
-  "description": "tweens an array, use with tween-ticker",
+  "description": "tweens an array from start to finish",
   "main": "index.js",
   "license": "MIT",
   "author": {
