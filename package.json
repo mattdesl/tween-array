@@ -1,6 +1,6 @@
 {
   "name": "tween-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tweens an array from start to finish",
   "main": "index.js",
   "license": "MIT",
