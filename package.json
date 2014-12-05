@@ -1,0 +1,46 @@
+{
+  "name": "tween-array",
+  "version": "1.0.0",
+  "description": "tweens an array, use with tween-ticker",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "lerp-array": "^1.1.1",
+    "tween-base": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "tween",
+    "ticker",
+    "tween-ticker",
+    "tweening",
+    "animate",
+    "array",
+    "lerp",
+    "arrays",
+    "vector",
+    "vectors",
+    "vecmath",
+    "vec",
+    "anim"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/tween-array.git"
+  },
+  "homepage": "https://github.com/mattdesl/tween-array",
+  "bugs": {
+    "url": "https://github.com/mattdesl/tween-array/issues"
+  }
+}
